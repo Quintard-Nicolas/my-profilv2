@@ -1,0 +1,84 @@
+body {
+	background-color: rgb(220, 220, 220);
+	color: black;
+    font-family: arial;
+    font-size: 17px;
+} 
+
+h1,h2,h3 {
+	font-family: 'Roboto', sans-serif ;
+	font-size: 32px;
+	font-weight: 900;
+	color: #342D7E;
+}
+h1{
+	color: #34282C;
+	font-size: 42px
+}
+
+a {
+	font-family: 'arial', sans-serif; 
+	text-decoration: none;
+	color:  #800080;
+	font-weight: 600;
+	font-size: 16px;
+}
+a: hover {
+	color: black
+}
+/* Custom design with class */
+
+.container {
+width: 700px
+margin: 40px auto;
+border-radius:5px; }
+
+.card-white {
+	background: white 
+	padding : 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px
+	margin: 20px auto;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%
+}
+
+.btn-blue {
+	background-color: #6B72E1
+	color: white;
+	padding: 15px 20px ;
+	border-radius: 4px
+
+}
+.btn-blue: hover {
+	background-color: black
+    color: white ;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+}
+.list-inline li {
+display: inline;
+padding: 10px;
+  }
+.list-inline i {
+	font-size: 50px;
+
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color: black;
+	
+}
+div {
+	width: 300px
+	margin: 0, auto;
+}
+img {
+	transform: 45deg;
+}
